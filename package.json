@@ -1,15 +1,16 @@
 {
-  "name": "react-native-iphone-x-helper",
-  "version": "1.3.1",
-  "description": "A library to help you design your react-native app for the iPhone X",
+  "name": "@linvix-sistemas/react-native-iphone-x-helper",
+  "version": "1.0.0",
+  "description": "A library to help you design your react-native app for the iPhone X+",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "distribute": "yarn publish --access public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ptelad/react-native-iphone-x-helper.git"
+    "url": "git+https://github.com/linvix-sistemas/react-native-iphone-x-helper.git"
   },
   "keywords": [
     "react-native",
@@ -18,12 +19,12 @@
     "iphoneX",
     "stylesheet"
   ],
-  "author": "Elad Gil",
+  "author": "Cristiano Cruz <cristiano@linvix.com.br> (https://github.com/cristiano-linvix)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ptelad/react-native-iphone-x-helper/issues"
+    "url": "https://github.com/linvix-sistemas/react-native-iphone-x-helper/issues"
   },
-  "homepage": "https://github.com/ptelad/react-native-iphone-x-helper#readme",
+  "homepage": "https://github.com/linvix-sistemas/react-native-iphone-x-helper#readme",
   "peerDependencies": {
     "react-native": ">=0.42.0"
   }

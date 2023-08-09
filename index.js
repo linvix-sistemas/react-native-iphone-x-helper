@@ -65,6 +65,18 @@ export function getStatusBarHeight() {
   });
 }
 
+export function getAsyncStatusBarHeight() {
+  return new Promise((res, rej) => {
+    if (StatusBarManager && StatusBarManager.getHeight) {
+      return StatusBarManager.getHeight(({ height }) => {
+        res(height);
+      });
+    } else {
+      res(StatusBar.currentHeight);
+    }
+  });
+}
+
 export function getBottomSpace(fallback = 0) {
   return isIphoneX() ? 34 : fallback;
 }

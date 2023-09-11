@@ -1,5 +1,5 @@
 
-[![npm version](https://badge.fury.io/js/@linvix-sistemas/react-native-iphone-x-helper.svg)](https://badge.fury.io/js/@linvix-sistemas/react-native-iphone-x-helper)
+[![npm version](https://badge.fury.io/js/@linvix-sistemas%2Freact-native-iphone-x-helper.svg)](https://badge.fury.io/js/@linvix-sistemas%2Freact-native-iphone-x-helper)
 
 # react-native-iphone-x-helper
 A library to help you design your react-native app for notched iPhones.

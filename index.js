@@ -112,6 +112,6 @@ export function getAsyncStatusBarHeight() {
   });
 }
 
-export function getBottomSpace() {
-  return isIphoneX() ? 34 : 0;
+export function getBottomSpace(fallback = 0) {
+  return isIphoneX() ? 34 : fallback;
 }
